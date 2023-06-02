@@ -1,7 +1,9 @@
-import './assets/styles/index.scss';
+import './assets/styles/index.css';
 
 const App = () => (
-  <>TutorsHub</>
+  <h1 className="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 );
 
 export default App;
